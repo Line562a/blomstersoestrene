@@ -1,0 +1,29 @@
+* {
+box-sizing: border-box;
+margin: 0;
+}
+
+/* 
+
+lilla: #636270
+pink: #efb4ae
+lysegrå: #c2c2c2
+mørkegrå: #333333
+
+*/
+
+h1 {
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 2.5rem;
+}
+
+h2 {
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+font-size: 1.3rem;
+}
+
+p {
+font-family: 'Source Sans Pro', sans-serif;
+}
