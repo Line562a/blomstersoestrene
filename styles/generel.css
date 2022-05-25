@@ -4,7 +4,7 @@
 }
 
 body {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   line-height: 1.4;
 }
@@ -15,7 +15,7 @@ lilla: #636270
 pink: #efb4ae
 lysegrå: #c2c2c2
 mørkegrå: #333333
-off-white: #ececec
+off-white: ##EFEFEF
 
 */
 
@@ -41,4 +41,65 @@ p {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 0.9rem;
   color: #333333;
+}
+
+/* knapper */
+
+.knap_pink {
+font-family: "Source Sans Pro", sans-serif;
+border-radius: 10px;
+background-color: #efb4ae;
+border: none;
+padding-inline: 1.5rem;
+padding-block: 0.5rem;
+cursor: pointer;
+color: #333333;
+}
+
+.knap_pink:hover {
+font-weight: 700;
+}
+
+.knap_lilla {
+font-family: "Source Sans Pro", sans-serif;
+border-radius: 10px;
+background-color: #636270;
+border: none;
+padding-inline: 1.5rem;
+padding-block: 0.5rem;
+cursor: pointer;
+color: #EFEFEF;
+}
+
+.knap_lilla:hover {
+font-weight: 700;
+}
+
+/* top-bar */
+
+.topbar {
+height: 5vh;
+width: 100%;
+background-color: #636270;
+}
+
+.topbar p {
+color: #EFEFEF;
+text-align: center;
+}
+
+/* navigation */
+
+nav {
+height: 15vh;
+width: 100%;
+margin-bottom: 2rem;
+}
+
+/* footer */
+
+footer {
+height: 20vh;
+width: 100%;
+background-color: #EFEFEF;
 }
