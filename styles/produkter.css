@@ -18,6 +18,19 @@ img {
   margin: 2rem;
 }
 
+.gallery img {
+  margin-bottom: 0.5rem;
+}
+
 .product {
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem 1rem 3rem 1rem;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.normalpris {
+  opacity: 0.3;
 }
