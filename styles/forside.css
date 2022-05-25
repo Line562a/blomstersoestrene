@@ -1,0 +1,23 @@
+.forside_splash {
+background-image: url(images/splash_forside.webp);
+height: 90vh;
+width: 100%;
+background-size: cover;
+}
+
+.forside_gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+
+.forside_2,
+.forside_4 {
+background-color: pink;
+padding-left: 5rem;
+padding-top: 5rem;
+}
+
+.forside_2 p,
+.forside_4 p {
+width: 65%;
+}
