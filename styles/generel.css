@@ -9,6 +9,10 @@ body {
   line-height: 1.4;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* 
 
 lilla: #636270
@@ -99,7 +103,7 @@ width: 100%;
 /* footer */
 
 footer {
-height: 20vh;
+height: 35vh;
 width: 100%;
 background-color: #EFEFEF;
 }
