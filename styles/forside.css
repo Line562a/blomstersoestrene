@@ -1,9 +1,32 @@
 .forside_splash {
-background-image: url(../images/forside_splash.JPG);
-height: 70vh;
+background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/forside_splash.JPG);
+height: 80vh;
 width: 100%;
 background-size: cover;
 margin-bottom: 2rem;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: 1fr 2fr 1fr;
+}
+
+.forside_splash_text {
+color: #EFEFEF;
+z-index: 50;
+grid-column: 2;
+grid-row: 2;
+margin: 0 auto;
+}
+
+.logo_splash {
+width: 40%;
+margin: 0 auto;
+margin-bottom: 1rem;
+}
+
+.forside_splash_text h1, 
+.forside_splash_text p {
+color: #EFEFEF;
+text-align: center;
 }
 
 .forside_gallery {
@@ -15,6 +38,7 @@ margin-bottom: 2rem;
 .forside_gallery img {
 width: 100%;
 height: 100%;
+object-fit: cover;
 }
 
 .forside_2,
