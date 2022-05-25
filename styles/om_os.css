@@ -45,10 +45,6 @@ p {
   padding: 2px;
 }
 
-img {
-  max-width: 100%;
-}
-
 main p {
   font-size: larger;
   color: #333333;
@@ -75,4 +71,8 @@ footer p {
 main {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+img {
+  max-width: 100%;
 }
