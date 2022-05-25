@@ -1,6 +1,6 @@
 .forside_splash {
-background-image: url(images/splash_forside.webp);
-height: 90vh;
+background-image: url(../images/forside_splash.JPG);
+height: 100vh;
 width: 100%;
 background-size: cover;
 }
@@ -12,12 +12,29 @@ grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
 
 .forside_2,
 .forside_4 {
-background-color: pink;
-padding-left: 5rem;
-padding-top: 5rem;
+padding: 5rem;
+}
+
+.forside_2 {
+background-color: #636270;
+}
+
+.forside_2 h1,
+.forside_2 h2,
+.forside_2 p {
+color: #ececec;
+}
+
+.forside_4 {
+background-color: #efb4ae;
 }
 
 .forside_2 p,
 .forside_4 p {
-width: 65%;
+width: 85%;
+}
+
+.forside_2 h1,
+.forside_4 h1 {
+width: 85%;
 }
