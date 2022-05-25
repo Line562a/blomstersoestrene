@@ -86,6 +86,7 @@ background-color: #636270;
 .topbar p {
 color: #EFEFEF;
 text-align: center;
+padding-top: 0.4rem;
 }
 
 /* navigation */
@@ -93,7 +94,6 @@ text-align: center;
 nav {
 height: 15vh;
 width: 100%;
-margin-bottom: 2rem;
 }
 
 /* footer */
