@@ -4,7 +4,7 @@
 }
 
 body {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   line-height: 1.4;
 }
@@ -75,12 +75,24 @@ color: #EFEFEF;
 font-weight: 700;
 }
 
+/* top-bar */
+
+.topbar {
+height: 5vh;
+width: 100%;
+background-color: #636270;
+}
+
+.topbar p {
+color: #EFEFEF;
+text-align: center;
+}
+
 /* navigation */
 
 nav {
-height: 25vh;
+height: 15vh;
 width: 100%;
-background-color: #EFEFEF;
 margin-bottom: 2rem;
 }
 
