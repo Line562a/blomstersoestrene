@@ -1,43 +1,9 @@
-body {
-  background-color: #efefef;
-}
-
-.topbar1 {
-  height: 5vh;
-  width: 100%;
-  background-color: #a1878f;
-}
-
-.topbar1 p {
-  color: #efefef;
-  position: absolute;
-  padding-top: 0.4rem;
-  right: 53%;
-  top: -0%;
-}
-
-.topbar2 p {
-  color: #efefef;
-  position: absolute;
-  right: 39%;
-  top: -0%;
-  padding-top: 0.4rem;
-}
-
 .kontakt {
-  position: absolute;
-  top: 40%;
-  left: 10%;
+margin: 0 auto;
+width: 60%;
+margin-bottom: 5rem;
 }
 
-.tekst1 {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-}
-
-.info {
-  position: absolute;
-  top: 58%;
-  left: 10%;
+.kontakt h2 {
+  margin-bottom: 0.6rem;
 }
