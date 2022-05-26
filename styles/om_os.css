@@ -8,7 +8,7 @@ main p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 70%;
-  margin-bottom: 5rem;
+  margin-block: 5rem;
   gap: 1rem;
 }
 

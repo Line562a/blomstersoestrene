@@ -14,8 +14,25 @@
   </head>
   <body>
     <!-- <div class="splash"></div> -->
-    <div class="topbar"><p>Hurtigt levering & billig fragt!</p></div>
-    <nav></nav>
+    <header>
+      <div class="topbar"><p>Hurtigt levering & billig fragt!</p></div>   
+         
+      <nav class="navbar">
+          <div class="logo"><img src="images/logo_text.svg"></div>
+          <ul class="nav_list" id="navi-list">
+            <li><a href="produkter.html">Populære produkter</a></li>
+            <li><a href="om_os.html">Om os</a></li>
+            <li><a href="kontakt.html">Kontakt os</a></li>
+          </ul>
+  
+        <div class="menu" id="toggle-button">
+          <div class="menu_line"></div>
+          <div class="menu_line"></div>
+          <div class="menu_line"></div>
+        </div>
+  
+      </nav>
+    </header>
 
     <section class="forside_splash">
       <article class="forside_splash_text">
@@ -148,4 +165,12 @@
         </div>
    </footer>
   </body>
+  <script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+      naviList.classList.toggle('active')
+    })
+  </script>
 </html>
