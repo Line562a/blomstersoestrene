@@ -85,13 +85,15 @@ font-weight: 700;
 height: 5vh;
 width: 100%;
 background-color: #efb4ae;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
 }
 
 .topbar p {
 color: #333333;
 text-align: center;
-padding-top: 0.4rem;
 font-size: 0.6rem;
+grid-row-start: 2;
 }
 
 /* navigation */
@@ -122,7 +124,7 @@ width: 7%;
 .nav_list, 
 li {
   display: inline-block;
-  padding: 0.8rem 1rem;
+  padding: 1.2rem 1rem;
 }
 
 .navbar a {
