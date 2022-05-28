@@ -102,7 +102,6 @@ header {
 position: sticky;
 top: 0;
 width: 100%;
-background-color: white;
 z-index: 100;
 background-color: #EFEFEF;
 }
@@ -114,7 +113,7 @@ align-items: center;
 }
 
 .logo {
-width: 7%;
+width: 9%;
 }
 
 .nav_list {
@@ -153,11 +152,12 @@ background-color: #efb4ae;
 .navbar {
 flex-direction: column;
 position: relative;
+display: block;
 }
 
 .logo {
-  width: 20%;
-  padding-top: 2%;
+width: 20%;
+padding: 3%;
 }
 
 .menu {
