@@ -13,42 +13,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-  <div class="topbar"><p>Hurtigt levering & billig fragt!</p></div>
-   <nav></nav>
+
+    <header>
+      <div class="topbar"><p>Hurtigt levering & billig fragt!</p></div>   
+         
+      <nav class="navbar">
+        <div class="logo"><a href="index.html"><img src="images/logo_text.svg"></a></div>
+          <ul class="nav_list" id="navi-list">
+            <li><a href="produkter.html">Populære produkter</a></li>
+            <li><a href="om_os.html">Om os</a></li>
+            <li><a href="kontakt.html">Kontakt os</a></li>
+          </ul>
+  
+        <div class="menu" id="toggle-button">
+          <div class="menu_line"></div>
+          <div class="menu_line"></div>
+          <div class="menu_line"></div>
+        </div>
+  
+      </nav>
+    </header>
     
     <main>
-      <div class="grid_1-2">
-        <div class="col">
-          <div class="selfie"><img src="eksempel.png" alt="Hendes billede"></div>
+      <div class="grid_om">
+          <div class="selfie"><img src="images/eksempel.png" width="300px" alt="Portræt af Maria, ejer af Blomstersøstrene"></div>
+          <div class="om_text">
+          <h1>Velkommen til Blomstersøstrene</h1>
+          <p>Denne webshop er en forlængelse af vores fysiske butik af samme navn Blomstersøstrene.
+          Her kan du bestille evighedsblomster samt alt det decor, som du også kan finde i butikken. 
+          Tøv ikke med at kontakte os, hvis du måtte have spørgsmål.</p>
+          <a href="kontakt.html"><button class="knap_pink">Kontakt os her</button></a>
         </div>
-        <div class="col">
-          <h2>Om os</h2>
-          <p>Velkommen til!</p>
-          <p>Denne webshop er en forlængelse af vores fysiske butik af samme navn; BLOMSTERSØSTRENE.</p> 
-          <p>Her kan du bestille evighedsblomster samt alt det Decor, som du også kan finde i butikken.</p> 
-          <p>Tøv ikke med at kontakte os, hvis du måtte have spørgsmål.</p> 
-
-            <p>Bedste Hilsner</p> 
-
-            <p>Maria</p> 
-            <p>Indehaver</p>
-          
-    </main>
-
-   <footer>
-      <div class="grid_1-1-1">
-        <div class="flex_col">
+</main>
+<footer>
+      <div class="grid_footer">
+        <div class="footer_col">
           <h3>Kontakt</h3>
           <p>Brønshøj, Danmark</p>
-          <p>Telefonnr: +4541241421</p>
-          <p>E-mail: blomstersoestrene@gmail.com</p>
+          <p>+45 41 24 14 21</p>
+          <p>Blomstersoestrene@gmail.com</p>
           <p>CVR-nummer: 41703385</p>
           
         </div>
-        <div class="flex_col">
+        <div class="footer_col">
           <h3>Kategorier</h3>
           <p>Blomster</p>
           <p>Dekoration</p>
@@ -56,12 +65,19 @@
           <p>Interiør</p>
           
         </div>
-        <div class="flex_col">
+        <div class="footer_col_social">
           <h3>Sociale medier</h3>
-          <div class="instagram"><img src="Instagram_logo.png" alt="sociale medier"></div>
+          <a href="https://www.instagram.com/blomstersoestrene/"><img src="images/instagram.svg"></a>
+          <a href="https://www.facebook.com/blomstersoestrene/"><img src="images/facebook.svg"></a>
         </div>
    </footer>
-
-
   </body>
+  <script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+      naviList.classList.toggle('active')
+    })
+  </script>
 </html>

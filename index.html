@@ -14,12 +14,29 @@
   </head>
   <body>
 
-    <div class="topbar"><p>Hurtigt levering & billig fragt!</p></div>
-    <nav></nav>
+<header>
+    <div class="topbar"><p>Hurtigt levering & billig fragt!</p></div>   
+       
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><img src="images/logo_text.svg" alt="Blomstersøstrenes logo"></a></div>
+        <ul class="nav_list" id="navi-list">
+          <li><a href="produkter.html">Populære produkter</a></li>
+          <li><a href="om_os.html">Om os</a></li>
+          <li><a href="kontakt.html">Kontakt os</a></li>
+        </ul>
+
+      <div class="menu" id="toggle-button">
+        <div class="menu_line"></div>
+        <div class="menu_line"></div>
+        <div class="menu_line"></div>
+      </div>
+
+    </nav>
+  </header>
 
     <section class="forside_splash">
       <article class="forside_splash_text">
-        <div class="logo_splash"><img src="images/logo.svg" alt=""/></div>
+        <div class="logo_splash"><img src="images/logo.svg" alt="Blomstersøstrenes logo"/></div>
         <h1>Blomstersøstrene</h1>
         <p>Her kan du bestille evighedsbuketter og décor leveret direkte hjem til dig. Du kan også 
           besøge butikken og købe blomster til enhver lejlighed.</p>
@@ -28,31 +45,62 @@
 
     <section class="forside_gallery">
         <article class="forside_1">
-          <img src="images/forside_1.webp" alt=""/>
+          <img src="images/forside_1.webp" alt="Billeder af blomster i flettede kurv udenfor"/>
         </article>
 
         <article class="forside_2">
-          <h1>eksempel på overskrift</h1>
-          <h2>eksempel på underoverskrift</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a nisi at urna molestie 
-            consectetur. Maecenas tristique convallis mi ut malesuada. </p>
-            <a href="#"><button class="knap_pink"> Se buketter her</button></a>
+          <h1>Buketter til Mors Dag</h1>
+          <h2>Find den perfekte buket</h2>
+          <p>Mors dag venter lige om hjørnet. Det er perfekte anledning til at forkæle hende, 
+            som du holder af. </p>
+            <a href="produkter.html"><button class="knap_pink"> Se buketter her</button></a>
         </article>
 
         <article class="forside_4">
-          <h1>eksempel på overskrift</h1>
-          <h2>eksempel på underoverskrift</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a nisi at urna molestie 
-          consectetur. Maecenas tristique convallis mi ut malesuada. </p>
-          <button class="knap_lilla"> Se buketter her</button>
+          <h1>Buketter til Bryllup</h1>
+          <h2>Den helt rigtige buket</h2>
+          <p>Bryllupsklokkerne ringer, risene flyver og festen nærmer sig. Find en buket der passer
+            netop til din fest. </p>
+          <a href="produkter.html"><button class="knap_lilla"> Se buketter her</button></a>
         </article>
 
         <article class="forside_3">
-          <img src="images/forside_2.webp" alt=""/>
+          <img src="images/forside_2.webp" alt="Lyserøde blomster indenfor"/>
         </article>
     </section>
 
-    <footer></footer>
+    <footer>
+      <div class="grid_footer">
+        <div class="footer_col">
+          <h3>Kontakt</h3>
+          <p>Brønshøj, Danmark</p>
+          <p>+45 41 24 14 21</p>
+          <p>Blomstersoestrene@gmail.com</p>
+          <p>CVR-nummer: 41703385</p>
+          
+        </div>
+        <div class="footer_col">
+          <h3>Kategorier</h3>
+          <p>Blomster</p>
+          <p>Dekoration</p>
+          <p>Lækkerier</p>
+          <p>Interiør</p>
+          
+        </div>
+        <div class="footer_col_social">
+          <h3>Sociale medier</h3>
+          <a href="https://www.instagram.com/blomstersoestrene/"><img src="images/instagram.svg" alt="Instagram logo"></a>
+          <a href="https://www.facebook.com/blomstersoestrene/"><img src="images/facebook.svg" alt="Facebook logo"></a>
+        </div>
+   </footer>
 
   </body>
+  <script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+      naviList.classList.toggle('active')
+    })
+  </script>
 </html>

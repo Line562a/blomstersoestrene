@@ -15,7 +15,7 @@ img {
 } */
 
 .forside_splash {
-  background: -webkit-linear-gradient(#efb4ae, #636270), url(../images/hero.webp);
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.webp);
   height: 80vh;
   width: 100%;
   background-size: cover;
@@ -32,6 +32,7 @@ img {
   grid-column: 2;
   grid-row: 2;
   margin: 0 auto;
+  /* text-shadow: #333333 2px 2px 8px; */
 }
 
 .logo_splash {

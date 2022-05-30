@@ -14,8 +14,25 @@
   </head>
   <body>
     <!-- <div class="splash"></div> -->
-    <div class="topbar"><p>Hurtigt levering & billig fragt!</p></div>
-    <nav></nav>
+    <header>
+      <div class="topbar"><p>Hurtigt levering & billig fragt!</p></div>   
+         
+      <nav class="navbar">
+        <div class="logo"><a href="index.html"><img src="images/logo_text.svg"></a></div>
+          <ul class="nav_list" id="navi-list">
+            <li><a href="produkter.html">Populære produkter</a></li>
+            <li><a href="om_os.html">Om os</a></li>
+            <li><a href="kontakt.html">Kontakt os</a></li>
+          </ul>
+  
+        <div class="menu" id="toggle-button">
+          <div class="menu_line"></div>
+          <div class="menu_line"></div>
+          <div class="menu_line"></div>
+        </div>
+  
+      </nav>
+    </header>
 
     <section class="forside_splash">
       <article class="forside_splash_text">
@@ -122,5 +139,38 @@
         <!-- <p>Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras.</p> -->
       </article>
     </section>
+
+    <footer>
+      <div class="grid_footer">
+        <div class="footer_col">
+          <h3>Kontakt</h3>
+          <p>Brønshøj, Danmark</p>
+          <p>+45 41 24 14 21</p>
+          <p>Blomstersoestrene@gmail.com</p>
+          <p>CVR-nummer: 41703385</p>
+          
+        </div>
+        <div class="footer_col">
+          <h3>Kategorier</h3>
+          <p>Blomster</p>
+          <p>Dekoration</p>
+          <p>Lækkerier</p>
+          <p>Interiør</p>
+          
+        </div>
+        <div class="footer_col_social">
+          <h3>Sociale medier</h3>
+          <a href="https://www.instagram.com/blomstersoestrene/"><img src="images/instagram.svg"></a>
+          <a href="https://www.facebook.com/blomstersoestrene/"><img src="images/facebook.svg"></a>
+        </div>
+   </footer>
   </body>
+  <script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+      naviList.classList.toggle('active')
+    })
+  </script>
 </html>
