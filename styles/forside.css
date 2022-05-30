@@ -1,6 +1,4 @@
 .forside_splash {
-
-background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/forside_splash.JPG);
 height: 80vh;
 width: 100%;
 background-size: cover;
@@ -8,15 +6,35 @@ margin-bottom: 2rem;
 display: grid;
 grid-template-columns: 1fr 2fr 1fr;
 grid-template-rows: 1fr 2fr 1fr;
-align-items: center;
 }
 
-.forside_splash_text {
+video {
+width: 100%;
+height: auto;
+}
+
+.forside_splash {
 color: #EFEFEF;
-z-index: 50;
 grid-column: 2;
 grid-row: 2;
 margin: 0 auto;
+background-size: cover;
+background-position: 50% 50%;
+background-color: rgba(0, 0, 0, 0.633);
+}
+
+.forside_splash article {
+grid-row-start: 2;
+grid-column-start: 2;
+}
+
+.forside_splash video {
+grid-area: 1 / 1 / -1 / -1;
+z-index: -1;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: bottom;
 }
 
 .logo_splash {
@@ -25,8 +43,8 @@ margin: 0 auto;
 margin-bottom: 1rem;
 }
 
-.forside_splash_text h1, 
-.forside_splash_text p {
+.forside_splash h1, 
+.forside_splash p {
 color: #EFEFEF;
 text-align: center;
 }

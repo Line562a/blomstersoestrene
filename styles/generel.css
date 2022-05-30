@@ -10,7 +10,9 @@ body {
   line-height: 1.4;
 }
 
-img {
+img,
+video,
+iframe {
   max-width: 100%;
   height: auto;
   display: block;
@@ -87,7 +89,7 @@ font-weight: 700;
 .topbar {
 height: 5vh;
 width: 100%;
-background-color: #efb4ae;
+background-color: var(--pink);
 display: grid;
 grid-template-rows: 1fr 1fr 1fr;
 }
@@ -137,7 +139,7 @@ font-size: 0.8rem;
 }
 
 .navbar a:hover {
-color: #efb4ae;
+color: var(--pink);
 }
 
 .menu {
@@ -148,7 +150,15 @@ display: none;
 width: 20px;
 height: 2px;
 margin-bottom: 5px;
-background-color: #efb4ae;
+background-color: var(--pink);
+}
+
+.icons {
+width: 10%;
+height: auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 0.5rem;
 }
 
 @media all and (max-width: 480px) {
@@ -156,6 +166,10 @@ background-color: #efb4ae;
 flex-direction: column;
 position: relative;
 display: block;
+}
+
+.icons {
+display: none;
 }
 
 .logo {
@@ -172,7 +186,8 @@ right: 20px;}
 .nav_list, 
 li {
 display: block;
-border-bottom: 1px solid white;}
+border-bottom: 1px solid white;
+}
 
 .nav_list {
 list-style: none;
