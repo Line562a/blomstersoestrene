@@ -13,12 +13,14 @@ margin-bottom: 1rem;
 margin-top: 1%;
 }
 
-.formular {
+form {
 font-family: "Source Sans Pro", sans-serif;
 font-size: 0.9rem;
 width: 70%;
 margin: 0 auto;
 margin-bottom: 1rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
 textarea {
@@ -30,7 +32,7 @@ border: none;
 border-bottom: solid 1px #333333;
 padding-left: 0.5rem;
 padding-top: 0.5rem;
-width: 40%;
+width: 90%;
 }
 
 input {
@@ -49,8 +51,8 @@ display: block;
 
 input {
 margin-bottom: 1rem;
-width: 40%;
 height: 40px;
+width: 90%;
 }
 
 .formular button {

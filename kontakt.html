@@ -46,15 +46,18 @@
 
 <div class="formular">
     <form>
-        <input placeholder="Fulde navn" required class="form-control" id="full-name" name="fname" type="text">
-        <input placeholder="Email" required id="email" name="email" type="email">
-        <input placeholder="Telefonnummer" required id="tel" name="tel" type="tel">
+      <div class="formular_1">
+        <input placeholder="Fulde navn *" required class="form-control" id="full-name" name="fname" type="text">
+        <input placeholder="Email *" required id="email" name="email" type="email">
+        <input placeholder="Telefonnummer *" required id="tel" name="tel" type="tel">
         <input placeholder="Evt. ordrenummer" id="text" name="text" type="text">
-        <input placeholder="Emne" required id="text" name="text" type="text"> 
+      </div>
 
-        <textarea name="Besked" rows="5" placeholder="Besked"></textarea>
-
+      <div class="formular_2">
+        <input placeholder="Emne *" required id="text" name="text" type="text"> 
+        <textarea name="Besked *" rows="5" placeholder="Besked"></textarea>
         <button class="knap_pink">Send</button>
+      </div>
     </form>
   </div>
   <footer>
