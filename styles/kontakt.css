@@ -1,7 +1,8 @@
 .kontakt {
 margin: 0 auto;
-width: 50%;
-margin-block: 5rem;
+width: 70%;
+margin-top: 3rem;
+margin-bottom: 1rem;
 }
 
 .kontakt h2 {
@@ -10,4 +11,50 @@ margin-block: 5rem;
 
 .info {
 margin-top: 1%;
+}
+
+form {
+font-family: "Source Sans Pro", sans-serif;
+font-size: 0.9rem;
+width: 70%;
+margin: 0 auto;
+margin-bottom: 1rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+textarea {
+font-family: "Source Sans Pro", sans-serif;
+font-size: 0.9rem;
+border-radius: 2px;
+background-color: #EFEFEF;
+border: none;
+border-bottom: solid 1px #333333;
+padding-left: 0.5rem;
+padding-top: 0.5rem;
+width: 90%;
+}
+
+input {
+border-radius: 2px;
+background-color: #EFEFEF;
+border: none;
+border-bottom: solid 1px #333333;
+padding-left: 0.5rem;
+}
+
+input,
+textarea, 
+button {
+display: block;
+}
+
+input {
+margin-bottom: 1rem;
+height: 40px;
+width: 90%;
+}
+
+.formular button {
+margin-top: 1rem;
 }

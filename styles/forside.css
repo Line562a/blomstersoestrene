@@ -7,6 +7,7 @@ margin-bottom: 2rem;
 display: grid;
 grid-template-columns: 1fr 2fr 1fr;
 grid-template-rows: 1fr 2fr 1fr;
+align-items: center;
 }
 
 .forside_splash_text {
@@ -18,7 +19,7 @@ margin: 0 auto;
 }
 
 .logo_splash {
-width: 40%;
+width: 30%;
 margin: 0 auto;
 margin-bottom: 1rem;
 }
