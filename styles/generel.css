@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  --pink: #efb4ae;
 }
 
 body {
@@ -54,7 +55,7 @@ p {
 .knap_pink {
 font-family: "Source Sans Pro", sans-serif;
 border-radius: 10px;
-background-color: #efb4ae;
+background-color: var(--pink);
 border: none;
 padding-inline: 1.5rem;
 padding-block: 0.5rem;
