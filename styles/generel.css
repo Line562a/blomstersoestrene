@@ -18,6 +18,10 @@ iframe {
   display: block;
 }
 
+main {
+max-width: 1800px;
+}
+
 /* 
 
 lilla: #636270
