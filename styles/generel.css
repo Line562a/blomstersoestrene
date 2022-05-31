@@ -65,6 +65,11 @@ cursor: pointer;
 color: #333333;
 }
 
+.knap_pink a {
+text-decoration: none;
+color: #333333;
+}
+
 .knap_pink:hover {
 font-weight: 700;
 }
@@ -77,6 +82,11 @@ border: none;
 padding-inline: 1.5rem;
 padding-block: 0.5rem;
 cursor: pointer;
+color: #EFEFEF;
+}
+
+.knap_lilla a {
+text-decoration: none;
 color: #EFEFEF;
 }
 
