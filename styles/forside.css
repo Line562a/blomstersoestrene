@@ -6,14 +6,6 @@ margin-bottom: 2rem;
 display: grid;
 grid-template-columns: 1fr 2fr 1fr;
 grid-template-rows: 1fr 2fr 1fr;
-}
-
-video {
-width: 100%;
-height: auto;
-}
-
-.forside_splash {
 color: #EFEFEF;
 grid-column: 2;
 grid-row: 2;
@@ -21,6 +13,12 @@ margin: 0 auto;
 background-size: cover;
 background-position: 50% 50%;
 background-color: rgba(0, 0, 0, 0.633);
+margin-bottom: 2rem;
+}
+
+video {
+width: 100%;
+height: auto;
 }
 
 .forside_splash article {
